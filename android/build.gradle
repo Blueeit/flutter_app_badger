@@ -23,6 +23,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 35
+    targetVersion 35
     namespace 'fr.g123k.flutterappbadger'
     defaultConfig {
         minSdkVersion 21
