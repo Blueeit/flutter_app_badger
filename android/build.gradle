@@ -23,9 +23,9 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 34
-    targetVersion 34
     namespace 'fr.g123k.flutterappbadger'
     defaultConfig {
+        targetSdkVersion 34
         minSdkVersion 21
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
